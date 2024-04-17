@@ -1,0 +1,131 @@
+[
+  {
+    "ContainingType": "EntityFrameworkCoreCRUD.Controllers.GymController",
+    "Method": "CreateGym",
+    "RelativePath": "api/Gym/CreateGym",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "EntityFrameworkCoreCRUD.Models.GymDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EntityFrameworkCoreCRUD.Models.Gym",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EntityFrameworkCoreCRUD.Controllers.GymController",
+    "Method": "DeleteGym",
+    "RelativePath": "api/Gym/DeleteGym",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EntityFrameworkCoreCRUD.Models.Gym",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EntityFrameworkCoreCRUD.Controllers.GymController",
+    "Method": "GetAllGyms",
+    "RelativePath": "api/Gym/GetAllGyms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[EntityFrameworkCoreCRUD.Models.Gym, EntityFrameworkCoreCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EntityFrameworkCoreCRUD.Controllers.GymController",
+    "Method": "GetGymByID",
+    "RelativePath": "api/Gym/GetGymByID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EntityFrameworkCoreCRUD.Models.Gym",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EntityFrameworkCoreCRUD.Controllers.GymController",
+    "Method": "UpdateGym",
+    "RelativePath": "api/Gym/UpdateGym",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gym",
+        "Type": "EntityFrameworkCoreCRUD.Models.GymDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EntityFrameworkCoreCRUD.Models.Gym",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

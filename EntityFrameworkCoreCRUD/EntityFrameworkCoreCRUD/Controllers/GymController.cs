@@ -18,7 +18,7 @@ namespace EntityFrameworkCoreCRUD.Controllers
         }
 
         [HttpPost]
-        public async Task<string> CreateGym(Gym model)
+        public async Task<Gym> CreateGym(GymDTO model)
         {
             var result = await _gymService.CreateGymAsync(model);
 
@@ -26,7 +26,7 @@ namespace EntityFrameworkCoreCRUD.Controllers
         }
 
         [HttpPut]
-        public async Task<string> UpdateGym(int id, Gym gym)
+        public async Task<Gym> UpdateGym(int id, GymDTO gym)
         {
             var result = await _gymService.UpdateGymAsync(id, gym);
 
@@ -34,7 +34,7 @@ namespace EntityFrameworkCoreCRUD.Controllers
         }
 
         [HttpDelete]
-        public async Task<string> DeleteGym(int id)
+        public async Task<Gym> DeleteGym(int id)
         {
             var result = await _gymService.DeleteGymAsync(id);
 

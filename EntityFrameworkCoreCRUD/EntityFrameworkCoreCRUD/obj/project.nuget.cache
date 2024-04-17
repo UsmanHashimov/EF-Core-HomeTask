@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LJ1CeXp+CejOSf1O7OCDu+Bp6GfSRVvFPvmrGHopBurBMkQp5YvgKiKKw20aNGw+SQsXGRVFUJ9GJdLnYnBS9Q==",
+  "dgSpecHash": "dPKAfgl2aMf38b1mXSGcnDDCXSjdAN6UT1ukFxyBtv0E0k9gHbggyt3szlL2qBzUmRbDz6YPJJp4yChtVtxiyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Dars\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD.csproj",
+  "projectFilePath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\EF-Core-HomeTask\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

@@ -2717,11 +2717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Dars\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\EF-Core-HomeTask\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD.csproj",
       "projectName": "EntityFrameworkCoreCRUD",
-      "projectPath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Dars\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD.csproj",
+      "projectPath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\EF-Core-HomeTask\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD.csproj",
       "packagesPath": "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Dars\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD\\obj\\",
+      "outputPath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\EF-Core-HomeTask\\EntityFrameworkCoreCRUD\\EntityFrameworkCoreCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A C E R   N I T R O\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2744,6 +2744,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2788,7 +2793,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

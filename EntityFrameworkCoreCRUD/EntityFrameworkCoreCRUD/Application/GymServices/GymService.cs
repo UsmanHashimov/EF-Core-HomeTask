@@ -11,42 +11,50 @@ namespace EntityFrameworkCoreCRUD.Application.GymServices
         {
             _context = context;
         }
-        public async Task<string> CreateGymAsync(Gym model)
+        public async Task<Gym> CreateGymAsync(GymDTO model)
         {
-            await _context.Gyms.AddAsync(model);
+            var gym = new Gym
+            {
+                name = model.name,
+                description = model.description,
+                location = model.location,
+                rating = model.rating,
+            };
+            await _context.Gyms.AddAsync(gym);
             await _context.SaveChangesAsync();
 
-            return "Malumot Yaratildi";
+            return gym;
         }
 
-        public async Task<string> UpdateGymAsync(int id, Gym gym)
+        public async Task<Gym> UpdateGymAsync(int id, GymDTO gym)
         {
             var gymToUpdate = await _context.Gyms.FindAsync(id);
-            if (gymToUpdate == null)
-            {
-                return "Gym not found";
-            }
+            //if (gymToUpdate == null)
+            //{
+            //    return gym;
+            //}
 
             gymToUpdate.name = gym.name;
             gymToUpdate.description = gym.description;
             gymToUpdate.location = gym.location;
             gymToUpdate.rating = gym.rating;
 
+
             await _context.SaveChangesAsync();
-            return "Malumot Yangilandi";
+            return gymToUpdate;
         }
 
-        public async Task<string> DeleteGymAsync(int id)
+        public async Task<Gym> DeleteGymAsync(int id)
         {
             var gymToDelete = await _context.Gyms.FindAsync(id);
             if (gymToDelete == null)
             {
-                return "Gym not found";
+                return gymToDelete;
             }
 
             _context.Gyms.Remove(gymToDelete);
             await _context.SaveChangesAsync();
-            return "Malumot O'chirildi";
+            return gymToDelete;
         }
 
         public async Task<List<Gym>> GetAllGymAsync()
